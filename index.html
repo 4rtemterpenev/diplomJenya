@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <div class="head">
+      <div class="wrap">
+        <div class="head-block">
+          <a href="index.html">
+            <div class="head-block__logo">
+              <img src="img/gerb_39.png" alt="">
+            </div>
+          </a>
+          <nav class="head-block__menu">
+            <ul>
+              <li><a href="history.html">О районе</a></li>
+              <li><a href="news.html">Новости</a></li>
+            </ul>
+          </nav>
+          <div class="burger">
+            <a href="#" class="menu-btn">
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="menu">
+    <nav>
+        <span class="js-menu-nav_about">О районе</span>
+          <div class="js-menu-nav_aboutBl">
+            <a href="history.html">Общие сведения</a>
+            <a href="team.html">Состав Администрации</a>
+            <a href="technical.html">Муниципальная служба</a>
+            <a href="organs.html">Органы власти</a>
+            <a href="contact.html">Контакты</a>
+          </div>
+        <a href="news.html">Новости</a>
+    </nav>
+  </div>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-block">
+        <span class="hero-block__title">Районная администрация</span>
+        <span class="hero-block__subtitle">«Березовского района»</span>
+        <div class="hero-block__button"><a href="#form-block">
+            <span>Cообщить о проблеме</span>
+          </a></div>
+      </div>
+    </div>
+  </section>
+  <section class="quote bg section">
+    <div class="wrap">
+      <div class="quote-text">
+        <span class="quote-text__title"><span class="spec">“</span>Не убран мусор, яма на дороге, не горит<br> фонарь? Поможем решить вопрос вместе!
+        <span class="spec">”</span></span>
+      </div>
+      <div class="quote-items">
+        <div class="quote-item__figure">
+          <div class="quote-item__line"></div>
+          <div class="quote-item__ellipse"></div>
+        </div>
+        <span class="quote-item__text">Сообщите нам о проблеме</span>
+      </div>
+    </div>
+  </section>
+  <section class="direction">
+    <div class="wrap">
+      <div class="direction-block">
+        <div class="direction-block__item1">
+          В нашем районе преиущественно ведется работа в сферах:
+        </div>
+        <a class="direction-block__item2">
+          Развитие малого бизнеса
+        </a>
+        <a class="direction-block__item2">
+          Улучшение жизни граждан района
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="news">
+    <div class="wrap">
+      <div class="news-block">
+        <div class="news-block__names">
+          <div class="news-block__tag">Новости</div>
+          <a href="news.html" class="news-block__link">Показать все</a>
+        </div>
+      </div>
+      <div class="news-block__items">
+        <div class="news-block__item">
+          <a href="new.html">
+            <div class="news-block__image">
+              <img src="img/Без названия.jpg" >
+            </div>
+            <div class="news-block__title">
+              <span>С днем победы</span>
+            </div>
+            <div class="news-block__date">
+              9 мая 2023г.
+            </div>
+          </a>
+        </div>
+        <div class="news-block__item">
+          <a href="new.html">
+            <div class="news-block__image">
+              <img src="img/Без названия (2).jpg" alt="">
+            </div>
+            <div class="news-block__title">
+              <span>Пожарная безопасность</span>
+            </div>
+            <div class="news-block__date">
+              2 мая 2023г.
+            </div>
+          </a>
+        </div>
+
+        <div class="news-block__item">
+          <a href="new.html">
+            <div class="news-block__image">
+              <img src="img/Без названия (1).jpg" alt="">
+            </div>
+            <div class="news-block__title">
+              <span>День местного самоуправления</span>
+            </div>
+            <div class="news-block__date">
+              21 апреля 2023г.
+            </div>
+          </a>
+        </div>
+        <div class="news-block__item">
+          <a href="new.html">
+            <div class="news-block__image">
+              <img src="img/pishevye_othody_1.jpg" alt="">
+            </div>
+            <div class="news-block__title">
+              <span>Вывоз отходов</span>
+            </div>
+            <div class="news-block__date">
+              4 апреля 2023г.
+            </div>
+          </a>
+        </div>
+      </div>
+  </section>
+  <section class="form bg section">
+    <div class="wrap">
+      <div class="form-block__send">
+        <span>Сообщите о проблеме</span>
+      </div>
+      <form action="#" class="form-block" id="form-block">
+        <div class="form-block__action">
+          <div class="form-block__item inputs">
+            <input type="text" class="name check" id="name" name="cname" placeholder="Как к вам обращаться"
+              minlength="2">
+            <input type="text" class="name check" id="email" name="cemail" placeholder="Контактный e-mail">
+            <input type="text" class="name check" id="cphone" name="cphone" placeholder="Контактный телефон">
+          </div>
+          <div class="form-block__item textareas">
+            <textarea name="area" id="" cols="30" rows="10" placeholder="Напишите нам" minlength="10"
+              maxlength="100"></textarea>
+          </div>
+          <div class="form-block__item submit vision">
+            <input type="submit" value="Отправить" id="submit" class="form-block__btn disabled">
+            <div class="form-block__check">
+              <input type="checkbox" id="check" name="check" checked>
+              <label for="check" class="form-block__label">Нажимая кнопку “отправить” Вы соглашаетесь на обработку
+                персональных данных.</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-block__item submit hide">  
+          <input type="submit" value="Отправить" id="submit" class="form-block__btn disabled">
+          <div class="form-block__check">
+            <input type="checkbox" id="check" name="check" checked>
+            <label for="check" class="form-block__label">Нажимая кнопку “отправить” Вы соглашаетесь на обработку
+              персональных данных.</label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+  <hr>
+  <footer>
+    <div class="footer">
+      <div class="wrap">
+        <div class="footer-block">
+          <span class="title">2023 «Администрация Березовского района»</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.mask.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
